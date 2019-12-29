@@ -1,0 +1,65 @@
+$primary: #6200EE;
+$secondary: #ebebeb;
+$third: rgb(233, 12, 12);
+$font1: 'Sulphur Point', sans-serif;
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 75%;
+    text-align: center;
+    margin:25% auto;
+    color: $primary;
+    font-weight: bold;
+    font-family: $font1;
+}
+.btn {
+  border-radius: 10rem;
+  max-width: 40%;
+}
+
+.logout-button{
+  margin-top: 5px;
+  margin-right: 5px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.form-control{
+ border-radius: 10rem;
+}
+
+.col-md-6 {
+    width: 400px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+label{
+  color: $primary;
+    font-weight: bold;
+    font-family: $font1;
+}
+
+small{
+  color: $secondary;
+  font-family: $font1;
+}
+
+button{
+  font-family: $font1;
+  color: $secondary;
+}
+
+
+
